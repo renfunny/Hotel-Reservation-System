@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="531.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotelreservationsystem.AdminView">
+    <children>
+        <Pane opacity="0.99" prefHeight="562.0" prefWidth="590.0" style="-fx-background-color: #F7F0E8;">
+            <children>
+                <Label alignment="CENTER" layoutX="75.0" layoutY="63.0" prefHeight="72.0" prefWidth="370.0" text="🌍 HOTEL ABC" textAlignment="CENTER" textFill="#883f39" wrapText="true">
+                    <font>
+                        <Font name="Segoe UI" size="50.0" />
+                    </font>
+                </Label>
+                <Button layoutX="26.0" layoutY="500.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="105.0" style="-fx-background-color: #883F39;" text="LOGOUT" textFill="#f7f0e8" />
+                <Label layoutX="179.0" layoutY="107.0" prefHeight="27.0" prefWidth="237.0" text=" ⭐⭐⭐⭐⭐" textFill="#883f39">
+                    <font>
+                        <Font size="48.0" />
+                    </font>
+                </Label>
+                <Label layoutX="211.0" layoutY="23.0" prefHeight="48.0" prefWidth="168.0" text="WELCOME TO" textFill="#883f39">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="26.0" layoutY="163.0" prefHeight="72.0" prefWidth="543.0" text="Manage bookings with care and ensure every guest enjoys a seamless experience" textAlignment="CENTER" textFill="#883f39" wrapText="true">
+                    <font>
+                        <Font name="Segoe UI" size="18.0" />
+                    </font>
+                </Label>
+            <TableView layoutX="24.0" layoutY="274.0" prefHeight="220.0" prefWidth="543.0">
+              <columns>
+                <TableColumn prefWidth="75.0" text="C1" />
+                <TableColumn prefWidth="75.0" text="C2" />
+              </columns>
+            </TableView>
+            <Label layoutX="24.0" layoutY="247.0" prefHeight="27.0" prefWidth="147.0" text="Bookings:" textAlignment="CENTER" textFill="#883f39" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Label>
+            <TextField layoutX="420.0" layoutY="248.0" />
+            <Label layoutX="359.0" layoutY="247.0" prefHeight="27.0" prefWidth="61.0" text="Search:" textAlignment="CENTER" textFill="#883f39" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="18.0" />
+               </font>
+            </Label>
+            <Button layoutX="464.0" layoutY="500.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="105.0" style="-fx-background-color: #883F39;" text="Checkout" textFill="#f7f0e8" />
+            <Button layoutX="353.0" layoutY="500.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="105.0" style="-fx-background-color: #883F39;" text="Delete Booking" textFill="#f7f0e8" />
+            </children></Pane>
+        <Pane layoutX="592.0" prefHeight="562.0" prefWidth="590.0" style="-fx-background-color: #883F39;">
+            <children>
+                <Button layoutX="48.0" layoutY="466.0" mnemonicParsing="false" prefHeight="0.0" prefWidth="495.0" style="-fx-background-color: #F7F0E8;" text="Book" textFill="#883f39">
+                    <font>
+                        <Font size="39.0" />
+                    </font>
+                </Button>
+                <Label alignment="CENTER" layoutX="43.0" layoutY="14.0" prefHeight="48.0" prefWidth="505.0" text="Add Booking" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+                    <font>
+                        <Font name="Segoe UI" size="25.0" />
+                    </font>
+                </Label>
+            <Label layoutX="26.0" layoutY="130.0" prefHeight="36.0" prefWidth="137.0" text="Guest Info:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Separator layoutX="26.0" layoutY="53.0" prefHeight="13.0" prefWidth="543.0" />
+            <Label layoutX="47.0" layoutY="156.0" prefHeight="36.0" prefWidth="137.0" text="Name:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="188.0" prefHeight="36.0" prefWidth="137.0" text="Address:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="311.0" layoutY="156.0" prefHeight="36.0" prefWidth="137.0" text="Phone:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="311.0" layoutY="187.0" prefHeight="36.0" prefWidth="137.0" text="Email:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <TextField layoutX="126.0" layoutY="162.0" prefHeight="25.0" prefWidth="147.0" />
+            <TextField layoutX="380.0" layoutY="162.0" />
+            <TextField layoutX="127.0" layoutY="194.0" />
+            <TextField layoutX="380.0" layoutY="194.0" prefHeight="25.0" prefWidth="149.0" />
+            <Label layoutX="50.0" layoutY="223.0" prefHeight="36.0" prefWidth="137.0" text="No. of Guests:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="184.0" layoutY="229.0" prefHeight="25.0" prefWidth="92.0" />
+            <Label layoutX="26.0" layoutY="259.0" prefHeight="36.0" prefWidth="137.0" text="Rooms:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="50.0" layoutY="289.0" prefHeight="36.0" prefWidth="137.0" text="Room 1 Type:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="184.0" layoutY="295.0" prefHeight="25.0" prefWidth="92.0" />
+            <ChoiceBox layoutX="437.0" layoutY="295.0" prefHeight="25.0" prefWidth="92.0" />
+            <Label layoutX="303.0" layoutY="289.0" prefHeight="36.0" prefWidth="137.0" text="Room 2 Type:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="26.0" layoutY="62.0" prefHeight="36.0" prefWidth="137.0" text="Dates:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="94.0" prefHeight="36.0" prefWidth="137.0" text="Check-In:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="289.0" layoutY="95.0" prefHeight="36.0" prefWidth="137.0" text="Check-Out:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <DatePicker layoutX="137.0" layoutY="100.0" prefHeight="25.0" prefWidth="137.0" />
+            <DatePicker layoutX="392.0" layoutY="102.0" prefHeight="25.0" prefWidth="137.0" />
+            <Label layoutX="26.0" layoutY="335.0" prefHeight="36.0" prefWidth="137.0" text="Total:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="47.0" layoutY="365.0" prefHeight="36.0" prefWidth="137.0" text="\$00.00" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font name="Segoe UI" size="20.0" />
+               </font>
+            </Label>
+            </children></Pane>
+    </children>
+</AnchorPane>

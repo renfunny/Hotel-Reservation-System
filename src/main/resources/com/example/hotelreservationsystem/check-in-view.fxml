@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="531.0" prefWidth="1180.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.hotelreservationsystem.CheckInView">
+    <children>
+        <Pane opacity="0.99" prefHeight="562.0" prefWidth="590.0" style="-fx-background-color: #F7F0E8;">
+            <children>
+                <Label alignment="CENTER" layoutX="75.0" layoutY="63.0" prefHeight="72.0" prefWidth="370.0" text="🌍 HOTEL ABC" textAlignment="CENTER" textFill="#883f39" wrapText="true">
+                    <font>
+                        <Font name="Segoe UI" size="50.0" />
+                    </font>
+                </Label>
+                <Button alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" layoutY="500.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="105.0" style="-fx-background-color: #883F39;" text="RULES AND REGULATIONS" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true" />
+                <Button layoutX="471.0" layoutY="500.0" mnemonicParsing="false" prefHeight="48.0" prefWidth="105.0" style="-fx-background-color: #883F39;" text="ADMIN LOGIN" textFill="#f7f0e8" />
+                <Label layoutX="179.0" layoutY="107.0" prefHeight="27.0" prefWidth="237.0" text=" ⭐⭐⭐⭐⭐" textFill="#883f39">
+                    <font>
+                        <Font size="48.0" />
+                    </font>
+                </Label>
+                <Label layoutX="211.0" layoutY="23.0" prefHeight="48.0" prefWidth="168.0" text="WELCOME TO" textFill="#883f39">
+                    <font>
+                        <Font size="26.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="26.0" layoutY="222.0" prefHeight="118.0" prefWidth="543.0" text="We're delighted to have you! Enjoy a seamless check-in experience and get ready for a stay filled with luxury and comfort." textAlignment="CENTER" textFill="#883f39" wrapText="true">
+                    <font>
+                        <Font name="Segoe UI" size="25.0" />
+                    </font>
+                </Label>
+            </children></Pane>
+        <Pane layoutX="592.0" prefHeight="562.0" prefWidth="590.0" style="-fx-background-color: #883F39;">
+            <children>
+                <Button layoutX="326.0" layoutY="420.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="237.0" style="-fx-background-color: #F7F0E8;" text="Next" textFill="#883f39">
+                    <font>
+                        <Font size="39.0" />
+                    </font>
+                </Button>
+                <Label alignment="CENTER" layoutX="43.0" layoutY="507.0" prefHeight="48.0" prefWidth="505.0" text="❓ Need assistance? Our team is always here to help!" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+                    <font>
+                        <Font size="18.0" />
+                    </font>
+                </Label>
+                <Label alignment="CENTER" layoutX="43.0" layoutY="22.0" prefHeight="61.0" prefWidth="505.0" text="BOOK YOUR ROOMS" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+                    <font>
+                        <Font size="25.0" />
+                    </font>
+                </Label>
+            <Label layoutX="55.0" layoutY="83.0" prefHeight="15.0" prefWidth="113.0" text="Check-In:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label layoutX="347.0" layoutY="83.0" prefHeight="15.0" prefWidth="113.0" text="Check-Out:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <DatePicker layoutX="55.0" layoutY="113.0" />
+            <DatePicker layoutX="347.0" layoutY="113.0" />
+            <Label layoutX="55.0" layoutY="173.0" prefHeight="15.0" prefWidth="113.0" text="Guests:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="55.0" layoutY="203.0" prefWidth="150.0" />
+            <Button layoutX="50.0" layoutY="420.0" mnemonicParsing="false" prefHeight="82.0" prefWidth="237.0" style="-fx-background-color: #F7F0E8;" text="Back" textFill="#883f39">
+               <font>
+                  <Font size="39.0" />
+               </font>
+            </Button>
+            <Label layoutX="55.0" layoutY="266.0" prefHeight="30.0" prefWidth="250.0" text="Number of Rooms:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Separator layoutX="26.0" layoutY="74.0" prefHeight="0.0" prefWidth="543.0" />
+            <Label layoutX="55.0" layoutY="289.0" prefHeight="30.0" prefWidth="320.0" text="(Refer to our Rules and Regulations for more details)" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label layoutX="59.0" layoutY="347.0" prefHeight="30.0" prefWidth="219.0" text="Edit Rooms:" textAlignment="CENTER" textFill="#f7f0e8" wrapText="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <ChoiceBox layoutX="173.0" layoutY="350.0" prefHeight="25.0" prefWidth="67.0" />
+            </children></Pane>
+    </children>
+</AnchorPane>
