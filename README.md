@@ -7,11 +7,17 @@ A modern, JavaFX-based hotel reservation management system that provides an intu
 ### Guest Features
 - **Book Rooms**: Easy-to-use interface for making new reservations
 - **Room Selection**: Choose from different room types based on guest count
+- ![Rooms View](src/main/resources/images/Rooms-view.png)
 - **Check In/Out Selection**: Interactive calendar for check-in and check-out date selection
+- ![CheckIn View](src/main/resources/images/CheckIn-view.png)
 - **Guest Information**: Simple form to provide guest details
+- ![Guest View](src/main/resources/images/GuestInfo-view.png)
+- **Guest Feedback**: Once checked out, guests can leave a review and share their experience
+- ![Feedback View](src/main/resources/images/Feedback-view.png)
 
 ### Admin Features
 - **Reservation Management**: View and manage all hotel reservations
+- ![Admin View](src/main/resources/images/Admin-view.png)
 - **Search Functionality**: Quick search through bookings
 - **Status Updates**: Update reservation statuses
 - **Guest Management**: Access to guest information and booking history
