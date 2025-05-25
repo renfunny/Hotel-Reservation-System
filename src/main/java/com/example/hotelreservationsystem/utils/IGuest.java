@@ -1,7 +1,10 @@
 package com.example.hotelreservationsystem.utils;
 
 import java.util.Dictionary;
+import java.util.Map;
 
 public interface IGuest {
-    public abstract Dictionary<String, String> getGuestDetails();
+    Map<String, Object> getGuestDetails();
+    void setGuestDetails(Map<String, Object> details);
+    boolean validateGuestDetails();
 }
